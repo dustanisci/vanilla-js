@@ -1,0 +1,2 @@
+- Possui uma throw no método _template, devido obrigar quem for extender a View em uma classe.
+- Quando é implementado por uma classe filha, sobreescreve. 

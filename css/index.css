@@ -1,0 +1,13 @@
+#messageView {
+  height    : 0;
+  padding   : 0;
+  border    : none;
+  transition: 450ms all ease;
+  display   : block;
+  margin    : 0 auto;
+}
+
+#messageView.effect {
+  height    : 60px;
+  transition: 450ms all ease;
+}

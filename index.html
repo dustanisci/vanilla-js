@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Warehouse Fruit</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/index.css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="./img/favicon.ico" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+
+      <h1 class="col-12 text-center">Warehouse Fruit</h1>
+
+      <div class="alert alert-success mt-4 p-relative" id="messageView"></div>
+
+      <form id="form" onsubmit="fruitController.addAction(event)" class="col-12 min-vh-25">
+        <div class="col-8 mx-auto">
+          <div class="row d-flex align-items-center justify-content-between">
+            <div class="mt-4 col-sm-12 col-12 col-md-8">
+              <input type="text" id="name" class="form-control" placeholder="Fruit" required>
+            </div>
+            <div class="mt-4 col-12 col-sm-12 col-md-2">
+              <input type="number" id="quantity" value="1" minlength="1" class="form-control" placeholder="0" required>
+            </div>
+            <div class="mt-4 col-12 col-sm-12 col-md-2 d-flex justify-content-end">
+              <button type="submit" class="btn btn-primary btn-sm col-12 col-sm-12 col-lg-6">+</button>
+            </div>
+          </div>
+        </div>
+      </form>
+
+      <div id="listFruitsView" class="col-12 mx-auto mt-5 p-5"></div>
+
+    </div>
+  </div>
+
+  <script src="./js/app/model/Fruit.js"></script>
+  <script src="./js/app/controller/FruitController.js"></script>
+  <script src="./js/app/helper/DateHelper.js"></script>
+  <script src="./js/app/model/ListFruits.js"></script>
+  <script src="./js/app/view/View.js"></script>
+  <script src="./js/app/view/ListFruitsView.js"></script>
+  <script src="./js/app/model/Message.js"></script>
+  <script src="./js/app/view/MessageView.js"></script>
+
+  <script>
+    let fruitController = new FruitController();
+  </script>
+</body>
+
+</html>

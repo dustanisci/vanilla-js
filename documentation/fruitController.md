@@ -1,0 +1,2 @@
+- Recebe dados, também manipula ações entre view e model. Por exemplo limpar um formulário após receber os dados de um formulário.
+- _ na frente do método significa que só dentro daquela classe o método é utilizado, pela convenção não se deve utilizá-lo fora da classe ou por instâncias dela chamada no HTML.

@@ -1,0 +1,2 @@
+- return [].concat(this._fruits), isso é referente a programação defensiva. O programador não conseguirá modificar a lista original que é fornecida pela instância de uma classe. Está fornecendo um novo método concatenado com o original. 
+Se for utilizar new Array, ele cria uma nova lista dentro na posição 0 do array original do objeto ListFruit.

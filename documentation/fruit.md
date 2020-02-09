@@ -1,0 +1,4 @@
+- Atualmente no javascript não é possível deixar uma classe 100% imutável. 
+- Atributos de uma classe não são imutáveis, sendo assim colocamos o _ no ínicio, como padrões de projeto.
+- É possível congelar a classe com o método Object.freeze(this), no caso this é referência a classe toda. Entretanto só é congelado o que consta na classe, mas se existir outros objetos dentro desta mesma classe, é possível modificá-los, devido ser referência de outra classe em mémoria. Sendo assim, nunca devolvemos o atributo diretamente e sim uma nova instância no método get, exemplo: return new SeuObjeto().
+- Geralmente devolvemos uma nova instância no get para fazer uma programação defensiva, o programador não conseguirá modificar aquele objeto devolvido pela classe de uma model, quando se trata de uma classe que só devemos interagir através dos métodos dela.

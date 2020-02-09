@@ -1,0 +1,3 @@
+- Separado a responsabilidade de datas através do diretório helper.
+- O uso de static na frente do método significa que ele é estático e pode ser invocado a qualquer momento no código, sem a necessidade de instanciar a classe toda vez. É uma boa prática usá-lo quando constantemente é usado no código, logo ele é um método de toda a aplicação.
+- Throw no constructor significa lançar uma exception personalizada no código, para alertar que não precisa ser instanciada.
