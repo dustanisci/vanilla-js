@@ -1,4 +1,4 @@
-# Vanila-JS - Design Patterns
+# VanillaJS - Design Patterns
 
 <b>Descrição:</b> Exemplo de adicionar produtos e somá-los de forma automática, onde possui mensagem personalizada.
 
