@@ -1,6 +1,6 @@
 # VanillaJS - Design Patterns
 
-<b>Descrição:</b> Exemplo de adicionar produtos e somá-los de forma automática, onde possui mensagem personalizada.
+<b>Descrição:</b> Exemplo de adicionar produtos e somá-los de forma automática, onde possui mensagem personalizada. Acessível em celulares, tablets, notebooks e desktops.
 
 <b>Endereço de acesso:</b> https://dustanisci.github.io/vanilla-js-design-patterns/
 
