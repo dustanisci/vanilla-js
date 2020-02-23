@@ -1,6 +1,14 @@
-# Armazém de frutas
+# Vanila-JS - Design Patterns
 
-Um exemplo simples de adicionar frutas, quantidade e somá-las.
-Utilizado Javascript puro, boas práticas de padrões de projeto e programação.
+<b>Descrição:</b> Exemplo de adicionar produtos e somá-los de forma automática, onde possui mensagem personalizada.
 
-Este site pode ser consultado no endereço: https://dustanisci.github.io/09-02-2020-warehouse-fruit-javascript-pure-git-io/
+<b>Endereço de acesso:</b> https://dustanisci.github.io/vanilla-js-design-patterns/
+
+<b>Tecnologias utilizadas:</b>
+<ul>
+  <li>Javascript - Vanilla</li>
+  <li>Ecmascript</li>
+  <li>MVC</li>
+  <li>CSS 3</li>
+  <li>Responsivo</li>
+</ul>
