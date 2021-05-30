@@ -4,7 +4,7 @@
 
 <b>Endereço de acesso:</b> https://dustanisci.github.io/vanilla-js-design-patterns/
 
-<b>Tecnologias utilizadas:</b>
+<b>Tecnologias utilizadas:</b> 
 <ul>
   <li>Javascript - Vanilla</li>
   <li>Ecmascript</li>
